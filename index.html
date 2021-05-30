@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Tablet</title>
+    <link rel=" stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="./meuestilo.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="text-center mb-5 mt-5">Projeto Tablet</h1>
+        <p id="telaBloqueada">Bloqueado</p>
+        <p id="telaDesbloqueada">Desbloqueado</p>
+        <div class="row">
+            <div style="display: flex; align-items: center;justify-content: center; flex-direction: column;">
+                <img class="esconder" id="imagemDesbloqueada" src="./tablet-ligado.png"
+                    alt="Tablet Desboqueado">
+                <img class="mostrar" id="imagemBloqueada" src="./tablet-desligado.jpg" alt="Tablet Bloqueado">
+                <div class="mt-5">
+                    <div class="btn-group">
+                        <button id="botaoDesbloquear" class="btn btn-primary">Desbloquear</button>
+                        <button id="botaoBloquear" class="btn btn-default">Bloquear</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+<script src="./javascript.js"></script>
+
+</html>
